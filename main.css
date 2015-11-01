@@ -1,0 +1,23 @@
+body { font-family:helvetica, arial; font-weight:bold; color:#666666; font-size:16px; }
+
+/* Top images */
+ul.octodex { list-style:none; margin:0; padding:8px 0 0 11px; width:1450px; }
+ul.octodex > li { display:block; width:460px; float:left; }
+ul.octodex > li > a img { width:424px; border:1px solid #cccccc; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; padding:10px; }
+li.octocat { margin: 12px 0 0 10px; }
+
+/* footer */
+.image-footer { position:relative; margin: -4px 12px 0 0; padding-top: 16px; vertical-align: middle; border-bottom:1px solid #cccccc; }
+.image-footer:after { display:block; content:" "; clear:both; margin-top:4px; }
+.image-number { float:left; color:#cccccc; }
+.image-number:before { content:"#"; }
+.image-caption { float:right; }
+ul.authors img { width:30px; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; margin-top:-6px;}
+ul.authors a { text-decoration: none; }
+ul.authors { list-style:none; float:right; margin-left:4px; padding:0; }
+
+a { text-decoration: none; color:#333333; }
+
+/* Footer triangle */
+.image-footer:before { content: ""; display: block; height: 0; width: 0; border: 8px solid transparent; 
+	border-top-color: #cccccc; position: absolute; right: 6px; top: 0;}
