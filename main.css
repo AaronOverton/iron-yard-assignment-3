@@ -1,0 +1,7 @@
+ul.octodex { list-style:none; margin:0; padding:8px 0 0 11px; width:1450px; }
+ul.octodex > li { display:block; width:460px; float:left; }
+ul.octodex > li > a img { width:424px; border:1px solid #cccccc; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; padding:10px; }
+li.octocat { margin: 12px 0 0 10px; }
+ul.authors img { width:28px; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
+ul.authors a { text-decoration: none; }
+ul.authors { list-style:none; float:right; }
